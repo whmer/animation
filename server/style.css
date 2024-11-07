@@ -1,0 +1,19 @@
+*{margin:0;padding: 0;box-sizing: border-box;}
+
+@font-face {
+    font-family: sara;
+    src: url('./fonts/DeezerProduct-Extrabold.ff5d8428e4fe802f91d53a06857feb145b0a435d.woff2');
+}
+:root{
+    --sam:"SF Pro Text", "SF Pro Icons", system, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+}
+#clickmeusername{font-family: var(--sam);}
+
+.i{
+    font-family: sara;
+    font-size: 30px;
+    animation: infinite;
+}
+body{background: #000; color: #fff; font-size: 20px; font-family: var(--sam);}
+.button{text-align: center; width: 470px; margin: 0 auto 10px; position: fixed; top: 35%; left: 0; right: 0;}
+@media(max-width:999px){.button{width: 80%;}}
